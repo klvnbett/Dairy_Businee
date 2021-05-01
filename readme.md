@@ -1,11 +1,10 @@
-# Anitas Kitchen menu
+# Dairy Business
 
-This is a project that basically uses basic html and css to develop the front page of a very intresting and delicious food producing restaurant which is famaously known as Anitas kitchen.
-the project was built to market and promote the nice food and the hardwork of the company.
+This is a project that basically uses javascript,html and css to monitor the production and supply of milk.
 
 ## Live Demo
 The demo of the site can be accessed through:
-[Live Demo Link]( "https://github.com/klvnbett/Anitas_Kitchen")
+[Live Demo Link]( "https://github.com/klvnbett/Dairy_Business")
 
 ## Setup/Installation Requirements
 By default the setup instalation requires only a browser and internet connection further more google chrome as the default browser.
