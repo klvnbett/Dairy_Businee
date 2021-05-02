@@ -1,10 +1,11 @@
 # Dairy Business
 
-This is a project that basically uses javascript,html and css to monitor the production and supply of milk.
+This is a project that basically uses javascript,html and css to monitor the production and supply of milk
+produced by several farmers.
 
 ## Live Demo
 The demo of the site can be accessed through:
-[Live Demo Link]( "https://github.com/klvnbett/Dairy_Business")
+[Live Demo Link]( "https://klvnbett.github.io/Dairy_Business/")
 
 ## Setup/Installation Requirements
 By default the setup instalation requires only a browser and internet connection further more google chrome as the default browser.
@@ -16,7 +17,7 @@ Html and css was used to design and develop the web page.
 ## Support and contact details
 Incase of any arising issues ,compliments ,new ideas contact us on 
 email: kelvin.bett@student.moringaschool.com 
-https://github.com/klvnbett/Anitas_Kitchen
+https://github.com/klvnbett/Dairy_Business
 
 ### License
 
