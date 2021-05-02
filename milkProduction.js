@@ -61,6 +61,9 @@ function calculate() {
         function calc(sellingPrice, time) {
             return sellingPrice * time * totalDaily;
         }
+        document.getElementById("weeklyincome").innerHTML = "weekly and yearly income"
+        document.getElementById("weekly").innerHTML = " Your weekly income will be Kshs. " + calc(45, 7) + ".";
+        document.getElementById("yearly").innerHTML = " Your Yearly income will be Kshs. " + calc(45, 366) + ".";
 
     }
 
