@@ -24,4 +24,8 @@ function dailyProduce() {
     sC = parseFloat(shedC);
     sD = parseFloat(shedD);
 
+    var shedsArray = [sA, sB, sC, sD];
+    var totalDaily = shedsArray[0] + shedsArray[1] + shedsArray[2] + shedsArray[3];
+
+
 }
