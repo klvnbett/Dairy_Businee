@@ -4,13 +4,10 @@ var shedB;
 var shedC;
 var shedD;
 
-var sA;
-var sB;
-var sC;
-var sD;
 
-var sheds = [{ name: 'shedA' }, { name: 'shedB' },
-    { name: 'shedC' }, { name: 'shedD' }
+
+var sheds = [{ name: 'shed A' }, { name: 'shed B' },
+    { name: 'shed C' }, { name: 'shed D' }
 ]
 
 function dailyProduce() {
@@ -19,25 +16,20 @@ function dailyProduce() {
     shedC = document.getElementById('shedC').value;
     shedD = document.getElementById('shedD').value;
 
-    sA = parseFloat(shedA);
-    sB = parseFloat(shedB);
-    sC = parseFloat(shedC);
-    sD = parseFloat(shedD);
 
-    var shedsArray = [sA, sB, sC, sD];
+
+    var shedsArray = [shedA, shedB, shedC, shedD];
     var totalDaily = shedsArray[0] + shedsArray[1] + shedsArray[2] + shedsArray[3];
-    if (isNaN(sA) || isNaN(sB) || isNaN(sC) || isNaN(sD)) {
-        alert(" records should not be empty");
-    } else {
-        document.getElementById("shedsRecord").innerHTML = "production per shed."
-        document.getElementById("shed_A").innerHTML = "Your Production In Shed A is " + shedsArray[0] + "liters per day."
-        document.getElementById("shed_B").innerHTML = "Your Production In Shed B is " + shedsArray[0] + "liters per day."
-        document.getElementById("shed_C").innerHTML = "Your Production In Shed C is " + shedsArray[0] + "liters per day."
-        document.getElementById("shed_D").innerHTML = "Your Production In Shed D is " + shedsArray[0] + "liters per day."
-        document.getElementById("total").innerHTML = "Your Total Production in all Sheds is" + totalDaily + "liters per day."
 
-    }
+    document.getElementById("shedsRecord").innerHTML = "production per shed."
+    document.getElementById("shed_A").innerHTML = "Your Production In Shed A is " + shedsArray[0] + "liters per day."
+    document.getElementById("shed_B").innerHTML = "Your Production In Shed B is " + shedsArray[0] + "liters per day."
+    document.getElementById("shed_C").innerHTML = "Your Production In Shed C is " + shedsArray[0] + "liters per day."
+    document.getElementById("shed_D").innerHTML = "Your Production In Shed D is " + shedsArray[0] + "liters per day."
+    document.getElementById("total").innerHTML = "Your Total Production in all Sheds is" + totalDaily + "liters per day."
+
 }
+
 
 function calculate() {
     shedA = document.getElementById('shed_A').value;
@@ -46,28 +38,21 @@ function calculate() {
     shedD = document.getElementById('shed_D').value;
 
 
-    sA = parseFloat(shedA);
-    sB = parseFloat(shedB);
-    sC = parseFloat(shedC);
-    sD = parseFloat(shedD);
 
-    var shedsArray = [sA, sB, sC, sD];
+
+    var shedsArray = [shedA, shedB, shedC, shedD];
     var totalDaily = shedsArray[0] + shedsArray[1] + shedsArray[2] + shedsArray[3];
 
-    if (isNaN(sA) || isNaN(sB) || isNaN(sC) || isNaN(sD)) {
-        alert("records should not be empty");
-
-    } else {
-        function incomeOverTime(sellingPrice, time) {
-            return sellingPrice * time * totalDaily;
-        }
-        document.getElementById("weeklyincome").innerHTML = "weekly and yearly income"
-        document.getElementById("weekly").innerHTML = " Your weekly income will be Kshs. " + incomeOverTime(45, 7) + ".";
-        document.getElementById("yearly").innerHTML = " Your Yearly income will be Kshs. " + incomeOverTime(45, 366) + ".";
-
+    function incomeOverTime(sellingPrice, time) {
+        return sellingPrice * time * totalDaily;
     }
+    document.getElementById("weeklyincome").innerHTML = "weekly and yearly income"
+    document.getElementById("weekly").innerHTML = " Your weekly income will be Kshs. " + incomeOverTime(45, 7) + ".";
+    document.getElementById("yearly").innerHTML = " Your Yearly income will be Kshs. " + incomeOverTime(45, 366) + ".";
 
 }
+
+
 
 function monthly() {
     var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
@@ -78,8 +63,5 @@ function monthly() {
     shedC = document.getElementById('shed_C').value;
     shedD = document.getElementById('shed_D').value;
 
-    sA = parseFloat(shedA);
-    sB = parseFloat(shedB);
-    sC = parseFloat(shedC);
-    sD = parseFloat(shedD);
+
 }
