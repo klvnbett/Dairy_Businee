@@ -45,8 +45,23 @@ function calculate() {
     shedC = document.getElementById('shed_C').value;
     shedD = document.getElementById('shed_D').value;
 
+
     sA = parseFloat(shedA);
     sB = parseFloat(shedB);
     sC = parseFloat(shedC);
     sD = parseFloat(shedD);
+
+    var shedsArray = [sA, sB, sC, sD];
+    var totalDaily = shedsArray[0] + shedsArray[1] + shedsArray[2] + shedsArray[3];
+
+    if (isNaN(sA) || isNaN(sB) || isNaN(sC) || isNaN(sD)) {
+        alert("records should not be empty");
+
+    } else {
+        function calc(sellingPrice, time) {
+            return sellingPrice * time * totalDaily;
+        }
+
+    }
+
 }
