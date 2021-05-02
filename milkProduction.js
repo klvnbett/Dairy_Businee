@@ -68,3 +68,18 @@ function calculate() {
     }
 
 }
+
+function monthly() {
+    var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+        "November", "December"
+    ];
+    shedA = document.getElementById('shed_A').value;
+    shedB = document.getElementById('shed_B').value;
+    shedC = document.getElementById('shed_C').value;
+    shedD = document.getElementById('shed_D').value;
+
+    sA = parseFloat(shedA);
+    sB = parseFloat(shedB);
+    sC = parseFloat(shedC);
+    sD = parseFloat(shedD);
+}
