@@ -72,5 +72,7 @@ function monthly() {
     document.getElementById("Monthlyincome").innerHTML = "monthly output"
     document.getElementById("January").innerHTML = "your income for the moth of " + month[0] + "will be Kshs" + incomeOverTime(31) + "."
     document.getElementById("February").innerHTML = "your income for the moth of " + month[1] + "will be Kshs" + incomeOverTime(29) + "."
-
+    document.getElementById("March").innerHTML = "your income for the moth of " + month[1] + "will be Kshs" + incomeOverTime(31) + "."
+    document.getElementById("April").innerHTML = "your income for the moth of " + month[1] + "will be Kshs" + incomeOverTime(30) + "."
+    document.getElementById("May").innerHTML = "your income for the moth of " + month[1] + "will be Kshs" + incomeOverTime(31) + "."
 }
