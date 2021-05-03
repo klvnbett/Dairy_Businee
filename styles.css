@@ -1,0 +1,10 @@
+.headerbar.top {
+    background-color: cadetblue;
+    min-width: 100px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}

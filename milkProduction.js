@@ -11,10 +11,10 @@ var sheds = [{ name: 'shed A' }, { name: 'shed B' },
 ]
 
 function dailyProduce() {
-    shedA = document.getElementById('shedA').value;
-    shedB = document.getElementById('shedB').value;
-    shedC = document.getElementById('shedC').value;
-    shedD = document.getElementById('shedD').value;
+    shedA = document.getElementById('shed_A').value;
+    shedB = document.getElementById('shed_B').value;
+    shedC = document.getElementById('shed_C').value;
+    shedD = document.getElementById('shed_D').value;
 
 
 
@@ -63,5 +63,12 @@ function monthly() {
     shedC = document.getElementById('shed_C').value;
     shedD = document.getElementById('shed_D').value;
 
+    var shedsArray = [shedA, shedB, shedC, shedD];
+
+    function incomeOverTime(time) {
+        return time * totalDaily;
+    };
+
+    document.getElementById("Monthlyincome").innerHTML = "monthly output"
 
 }
