@@ -70,6 +70,7 @@ function monthly() {
     };
 
     document.getElementById("Monthlyincome").innerHTML = "monthly output"
-    document.getElementById("jan").innerHTML = "your income for the moth of " + month[0] + "will be Kshs" + incomeOverTime(31) + "."
+    document.getElementById("January").innerHTML = "your income for the moth of " + month[0] + "will be Kshs" + incomeOverTime(31) + "."
+    document.getElementById("February").innerHTML = "your income for the moth of " + month[1] + "will be Kshs" + incomeOverTime(29) + "."
 
 }
