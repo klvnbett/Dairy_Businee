@@ -10,16 +10,32 @@
 </head>
 
 <body>
-    <table>
-        <th id="shed_A"> SHED A</th>
-        <th id="shed_B"> SHED B</th>
-        <th id="shed_C"> SHED C</th>
-        <th id="shed_D"> SHED D</th>
+    <table class="milkproduction">
+        <h1>DAIRY BUSINESS</h1>
+        <div id="dailyproduce">
+            <th class="dairy" colspan="3">Dairy Farm produce </th>
+            <tr id="tabledata">
+                <td>
+                    <div class="shed_A">SHED A <input type="number" id="shed_A" placeholder="123" required></div>
+                    <div class="shed_B">SHED B <input type="number" id="shed_B" placeholder="123" required></div>
+                    <div class="shed_C">SHED C <input type="number" id="shed_C" placeholder="123" required></div>
+                    <div class="shed_D">SHED D <input type="number" id="shed_D" placeholder="123" required></div>
+                    <div id="buttons">
+                        <button>Daily records</button>
+                        <button> daily income</button>
+                        <button>monthly income</button>
+                        <button> clear</button>
+                    </div>
+
+
+
+
+                </td>
+            </tr>
+        </div>
+
     </table>
-    <div>
-        <input type="text" id="shed_A">
-        <button id="shed_A">Submit</button>
-    </div>
+
     <script src="milkProduction.js">
     </script>
 </body>
