@@ -18,6 +18,30 @@ body {
     background-size: cover;
 }
 
+#tabledata {
+    background-color: lightgreen;
+}
+
+.shed_A,
+.shed_B,
+.shed_C,
+.shed_D {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 0px;
+    font-family: cursive;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#buttons {
+    background-color: rgb(146, 205, 253);
+    padding: 5px;
+    border-radius: 3px;
+}
+
 h1 {
     text-align: center;
     background: cyan;
